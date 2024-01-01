@@ -8,10 +8,12 @@ export default async function page() {
   const posts = await fetchPosts();
   return (
     <>
+      <div className="px-2">
       <h1 className="text-4xl font-bold my-3">My Blogs</h1>
       <p>
         This is my blog built with Next.js 14 and sanity.io, you'll love it when you read my blogs, it's very simple and I want it to be the same, the content should be accessible to all.
       </p>
+      </div>
       <hr className="my-5 w-3xl mx-auto" />
       <div className="w-full flex flex-wrap my-3">
         {posts.map((post, index) => (
