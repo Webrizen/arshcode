@@ -16,7 +16,7 @@ export default async function page() {
       <div className="w-full flex flex-wrap my-3">
         {posts.map((post, index) => (
           <Link href={`/${post.slug.current}`} key={index} className="w-full">
-            <div className="grid grid-cols-[.7fr_1fr] border-2 relative overflow-hidden rounded-lg border-gray-200 border-opacity-50 p-4 gap-6 items-center justify-start">
+            <div className="grid md:grid-cols-[.7fr_1fr] grid-cols-1 border-2 relative overflow-hidden rounded-lg border-gray-200 border-opacity-50 md:p-4 p-2 gap-6 items-center justify-start">
               <div className="w-full h-full rounded-lg border border-slate-300 overflow-hidden">
                 <GetImage
                   source={post.mainImage.asset._ref}

@@ -57,7 +57,7 @@ export default function Home() {
       <p className="text-gray-700 mb-6">
         Beyond coding, I am well-versed in UI/UX design principles, ensuring that the applications I develop not only function flawlessly but also provide a delightful user experience. My proficiency extends to domain and hosting management, Figma for design collaboration, and Docker for seamless deployment.
       </p>
-      <div className="justify-center items-center p-0 flex space-x-4 w-full mb-6">
+      <div className="justify-center items-center p-0 flex md:space-x-4 flex-col w-full mb-6">
         <a href='https://www.youtube.com/channel/UCntvVtj1IihyJSgI7nKyhyw' className="bg-slate-100 hover:bg-slate-200 rounded-lg w-full flex items-center p-4 justify-between">
           <div className='flex gap-4 items-center'>
           <Avatar>
