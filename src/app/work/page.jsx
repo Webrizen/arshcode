@@ -20,12 +20,12 @@ export default async function page() {
         the next generation of consumers. Here's a summary of my work so far.
       </p>
       <hr className="my-5 w-3xl mx-auto" />
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-3">
+      <div className="grid md:grid-cols-1 grid-cols-1 gap-5">
         {projects.map((project) => (
           <a
             key={project.id}
             href={project.link}
-            className="w-full p-4 rounded-lg bg-slate-100"
+            className="w-full p-4 rounded-lg bg-slate-100 border border-slate-200"
           >
             <h2 className="font-bold">{project.title}</h2>
             <p className="line-clamp-4">{project.description}</p>
